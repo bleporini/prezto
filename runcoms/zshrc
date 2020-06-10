@@ -23,4 +23,4 @@ if [ -f '/opt/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/google-cloud-
 
 alias ccloud="docker run -ti --rm -v ~/.ccloud:/root/.ccloud ccloud "
 alias confluent="docker run -ti --rm -v ~/.confluent:/root/.confluent confluent "
-
+set -o vi
