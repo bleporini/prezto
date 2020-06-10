@@ -10,3 +10,5 @@ if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; t
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
+export PATH=$HOME/bin:$PATH
+export CCLOUD_CREDENTIALS=~/.ccloud/credentials_sesemea
